@@ -25,4 +25,10 @@ public class PlayerController : MonoBehaviour
         newPosition.x = Mathf.Clamp(newPosition.x, -4.5f, 4.5f);
         transform.position = newPosition;   
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Destroy(other.gameObject);
+        GameManager.instance.UpdateScore(1);
+    }
 }
