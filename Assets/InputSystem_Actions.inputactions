@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "InputSystem_Actions",
     "maps": [
         {
@@ -495,7 +496,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "01b9820f-ac91-4a86-8307-6b9a6ab6c86e",
+                    "id": "387b123e-8ff6-46c1-8c0b-0d33cbdcd2ae",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
